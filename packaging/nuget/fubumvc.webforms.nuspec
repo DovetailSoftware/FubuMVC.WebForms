@@ -11,9 +11,6 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Support for using the ASP.NET WebForms view engine within a FubuMVC application.</description>
     <tags>webforms fubumvc</tags>
-    <dependencies>
-      <dependency id="FubuMVC.Core" version="100.0.0.12" />
-    </dependencies>
   </metadata>
   <files>
     <file src="..\..\src\FubuMVC.WebForms\bin\release\FubuMVC.WebForms.*" target="lib\net40" />
