@@ -1,7 +1,6 @@
 using System.Collections.Generic;
 using FubuCore;
 using FubuMVC.Core.Runtime;
-using FubuMVC.Core.UI;
 using FubuMVC.Core.UI.Elements;
 using FubuMVC.Core.View;
 using NUnit.Framework;
@@ -16,7 +15,6 @@ namespace FubuMVC.WebForms.Testing
         private InputModel _model;
         private IPartialRenderer _renderer;
         private IPartialViewTypeRegistry _viewTypeRegistry;
-        private IElementGenerator<InputModel> _tags;
 
         [SetUp]
         public void SetUp()

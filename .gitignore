@@ -26,3 +26,5 @@ src/*/repositories.config
 results
 bottles.cmd
 fubu.cmd
+src/.vs/
+Gemfile.lock
